@@ -1,0 +1,57 @@
+def getNameVariations(first,middle,last):
+    first_initial = first[0]
+    middle_initial = middle[0]
+    last_initial = last[0]
+
+    name_list = [
+                first + ' ' + middle + ' ' + last,
+                first + ' ' + middle + ' ' + last_initial,
+                first + ' ' + middle_initial + ' ' + last,
+                first + ' ' + middle_initial + ' ' + last_initial,
+                first + ' ' + last + ' ' + middle,
+                first + ' ' + last + ' ' + middle_initial,
+                first + ' ' + last_initial + ' ' + middle,
+                first + ' ' + last_initial + ' ' + middle_initial,
+                last + ' ' + first + ' ' + middle,
+                last + ' ' + first + ' ' + middle_initial,
+                last + ' ' + first_initial + ' ' + middle,
+                last + ' ' + first_initial + ' ' + middle_initial,
+                last + ' ' + middle + ' ' + first,
+                last + ' ' + middle + ' ' + first_initial,
+                last + ' ' + middle_initial + ' ' + first,
+                last + ' ' + middle_initial + ' ' + first_initial,
+                middle + ' ' + first + ' ' + last,
+                middle + ' ' + first + ' ' + last_initial,
+                middle + ' ' + first_initial + ' ' + last,
+                middle + ' ' + first_initial + ' ' + last_initial,
+                middle + ' ' + last + ' ' + first,
+                middle + ' ' + last + ' ' + first_initial,
+                middle + ' ' + last_initial + ' ' + first,
+                middle + ' ' + last_initial + ' ' + first,
+                first_initial + ' ' + middle + ' ' + last,
+                first_initial + ' ' + middle + ' ' + last_initial,
+                first_initial + ' ' + middle_initial + ' ' + last,
+                first_initial + ' ' + middle_initial + ' ' + last_initial,
+                first_initial + ' ' + last + ' ' + middle,
+                first_initial + ' ' + last + ' ' + middle_initial,
+                first_initial + ' ' + last_initial + ' ' + middle,
+                first_initial + ' ' + last_initial + ' ' + middle_initial,
+                middle_initial + ' ' + first + ' ' + last,
+                middle_initial + ' ' + first + ' ' + last_initial,
+                middle_initial + ' ' + first_initial + ' ' + last,
+                middle_initial + ' ' + first_initial + ' ' + last_initial,
+                middle_initial + ' ' + last + ' ' + first,
+                middle_initial + ' ' + last + ' ' + first_initial,
+                middle_initial + ' ' + last_initial + ' ' + first,
+                middle_initial + ' ' + last_initial + ' ' + first_initial,
+                last_initial + ' ' + first + ' ' + middle,
+                last_initial + ' ' + first + ' ' + middle_initial,
+                last_initial + ' ' + first_initial + ' ' + middle,
+                last_initial + ' ' + first_initial + ' ' + middle_initial,
+                last_initial + ' ' + middle + ' ' + first,
+                last_initial + ' ' + middle + ' ' + first_initial,
+                last_initial + ' ' + middle_initial + ' ' + first,
+                last_initial + ' ' + middle_initial + ' ' + first_initial
+                ]
+
+    return name_list

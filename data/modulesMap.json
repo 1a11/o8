@@ -1,0 +1,53 @@
+{
+    "0": {
+        "url": "https://viewdns.info/",
+        "local": "No",
+        "execution_model": "http://ip-api.com/json/{}+ip",
+        "params":["ip"],
+        "html": "No"
+    },
+    "1": {
+        "url": "https://gravatar.com/",
+        "local": "No",
+        "execution_model": "https://gravatar.com/{}+ehash",
+        "params":["ehash"],
+        "html": "Yes",
+        "element":"title"
+    },
+    "2": {
+        "url": "https://intelx.io/",
+        "local": "No",
+        "execution_model": "https://intelx.io/?s={}+email",
+        "params":["email"],
+        "html": "Yes",
+        "element":"span:found_media_stats"
+    },
+    "3": {
+        "url": "https://haveibeenpwned.com/",
+        "local": "No",
+        "execution_model": "https://haveibeenpwned.com/unifiedsearch/{}+email",
+        "params":["email"],
+        "html": "Yes",
+        "element":"class:pwnTitle"
+    },
+    "4": {
+        "url": "local://okcheck/",
+        "local": "Yes",
+        "params":["phone","email"]
+    },
+    "5": {
+        "url": "local://h8mail/",
+        "local": "Yes",
+        "params":["email"]
+    },
+    "6": {
+        "url": "local://sherlock/",
+        "local": "Yes",
+        "params":["nickname"]
+    },
+    "7": {
+        "url": "local://phoneinfoga/",
+        "local": "Yes",
+        "params":["phone"]
+    }
+}

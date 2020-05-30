@@ -1,0 +1,5 @@
+requests
+uuid
+colorama
+cloudscraper
+bs4

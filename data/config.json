@@ -1,0 +1,34 @@
+{
+    "0": {
+        "url": "https://ip-api.com/",
+        "description": "IP lookup"
+    },
+    "1": {
+        "url": "https://gravatar.com/",
+        "description": "Name search on gravatar"
+    },
+    "2": {
+        "url": "https://intelx.io/",
+        "description": "Password lookup"
+    },
+    "3": {
+        "url": "https://haveibeenpwnd.com/account/",
+        "description": "Haveibeenpwnd password leak check"
+    },
+    "4": {
+        "url": "local://okcheck/",
+        "description": "Odnoklassniki lookup"
+    },
+    "5": {
+        "url": "local://h8mail/",
+        "description": "Advanced password leaks search"
+    },
+    "6": {
+        "url": "local://sherlock/",
+        "description": "Nickname registration lookup"
+    },
+    "7": {
+        "url": "local://phoneinfoga/",
+        "description": "Phone number lookup"
+    }
+}
