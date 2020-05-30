@@ -11,7 +11,6 @@ def makeAPIRequest(schema,p):
     urls=[]
     ids=[]
     data = {}
-    print(schema)
     scraper = cloudscraper.create_scraper()
     for i in schema:
         #print("Request type: {}".format(schema[i]['type']))
@@ -39,9 +38,7 @@ def makeAPIRequest(schema,p):
                 permissions = uih.permissionsFor(i,p)
                 info = uih.getUserDataWithPermissions(permissions,p)
                 for i in info['email']:
-                    print(i)
                     command = 'h8mail -t {} > {}/data/{}h8mail.txt'.format(i,p,i)
-                    print(command)
                     os.system(command)
             elif 'okcheck' in schema[i]['url']:
                 permissions = uih.permissionsFor(i,p)
