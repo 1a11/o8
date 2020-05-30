@@ -9,7 +9,9 @@ O8 is the OSINT a tool that combines many others. OSINT has never been so fast a
   - haveibeenpwned
   - intelx
 
-O8 allows you to quickly gather the information you need about a person by a variety of parameters, including: first name, last name, patronymic, IP address, e-mail address and user names.
+O8 allows you to quickly gather the information you need about a person by a variety of parameters, including: first name, last name, patronymic, IP address, e-mail address and user names. 
+
+O8 is only available for Linux and MacOS
 
 # Installation
 Clone O8 repo:
