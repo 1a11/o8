@@ -63,7 +63,7 @@ def makeAPIRequest(schema,p):
                 info = uih.getUserDataWithPermissions(permissions,p)
 
                 print(i)
-                command = "Desktop/OSINT/tools/phoneinfoga scan -n {} > {}/data/{}phoneinfoga.txt".format(info['phone'],p,info['phone'])
+                command = p+"/tools/phoneinfoga scan -n {} > {}/data/{}phoneinfoga.txt".format(info['phone'],p,info['phone'])
                 print(command)
                 os.system(command)
     counter = 0
