@@ -70,7 +70,7 @@ def makeAPIRequest(schema,p):
     print(urls)
     data['haveibeenpwned'] = []
     data['gravatar_name'] = []
-    data['intelx']
+    data['intelx'] = []
     for i in urls:
         if 'intelx.io' not in i:
             print('[INFO] Checking',i)
