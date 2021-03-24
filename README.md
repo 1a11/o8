@@ -1,8 +1,6 @@
 # O8 
 <a href="https://www.buymeacoffee.com/1a11" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
-*Quick notice for future Nole: CHECK when you think everything is ok. Even if you just checked. Don't work night. Don't be an idiot, do thefaq I told you, fucker*
-
 O8 is the OSINT a tool that combines many others. OSINT has never been so fast and convenient. In this project are used:
 
   - phoneinfoga
